@@ -4,7 +4,7 @@
 
     - name: Send notification to Slack
       wait_for:
-        timeout: 240
+        timeout: 90
       delegate_to: localhost
       no_log: true
       
