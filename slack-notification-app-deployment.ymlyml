@@ -1,0 +1,6 @@
+- name: Hello World Sample
+  hosts: all
+  tasks:
+    - name: Send notification to Slack
+      debug:
+        msg: "The application deployment is starting"
